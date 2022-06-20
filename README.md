@@ -4,11 +4,14 @@
 
 We welcome contributions to templates or submissions of new templates, please do so by submitting a PR.
 
-To run locally `npm run start`
+To run locally 
+`npm install`
+`npm run start`
 
 To deploy:
+You will need the AWS CLI https://aws.amazon.com/cli/
 `npm run export`
-Then upload to the S3 bucket.
+Then upload to the S3 bucket. Normally this is done with the deploy.sh script, which is not distributed as part of this repo.
 
 
 ## Theme from 
