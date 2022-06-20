@@ -5,6 +5,7 @@
 We welcome contributions to templates or submissions of new templates, please do so by submitting a PR.
 
 To run locally 
+Install node (has been tested with v16.9.1)
 `npm install`
 `npm run start`
 
