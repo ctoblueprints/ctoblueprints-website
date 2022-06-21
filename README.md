@@ -5,17 +5,21 @@
 We welcome contributions to templates or submissions of new templates, please do so by submitting a PR.
 
 To run locally 
-Install node (has been tested with v16.9.1)
-`npm install`
+ * Install node (has been tested with v16.9.1)
+ * `npm run dev`
+
+To test the static export locally
 `npm run start`
 
 To deploy:
-You will need the AWS CLI https://aws.amazon.com/cli/
-`npm run export`
-Then upload to the S3 bucket. Normally this is done with the deploy.sh script, which is not distributed as part of this repo.
+ * You will need the AWS CLI https://aws.amazon.com/cli/
+ * `npm run export`
+ * Then upload to the S3 bucket. 
+
+Normally this is done by site admins with the deploy.sh script, which is not distributed as part of this repo.
 
 
-## Theme from 
+### Theme from 
 [Netlify Next.js Blog Template designed by Bejamas](https://github.com/netlify-templates/nextjs-blog-theme)
 
 Which is a customizable blog starter using:
@@ -27,6 +31,6 @@ Which is a customizable blog starter using:
 
 
 
-## Adding new posts
+### Adding new posts
 All posts are stored in `/posts` directory. To make a new post, create a new file with the [`.mdx` extension](https://mdxjs.com/).
 Since the posts are written in `MDX` format you can pass props and components. That means you can use [React components](https://reactjs.org/docs/components-and-props.html) inside your posts to make them more interactive. Learn more about how to do so in the [MDX docs on content](https://mdxjs.com/docs/using-mdx/#components).
