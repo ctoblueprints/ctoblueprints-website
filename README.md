@@ -34,3 +34,7 @@ Which is a customizable blog starter using:
 ### Adding new posts
 All posts are stored in `/posts` directory. To make a new post, create a new file with the [`.mdx` extension](https://mdxjs.com/).
 Since the posts are written in `MDX` format you can pass props and components. That means you can use [React components](https://reactjs.org/docs/components-and-props.html) inside your posts to make them more interactive. Learn more about how to do so in the [MDX docs on content](https://mdxjs.com/docs/using-mdx/#components).
+
+
+### Thanks to 
+Background Photo by ThisIsEngineering: https://www.pexels.com/photo/engineer-designing-theme-park-ride-3862377/
